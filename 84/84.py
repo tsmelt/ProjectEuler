@@ -1,4 +1,4 @@
-# 84_v2.py
+# 84.py
 # Tyler_Smelt@hmc.edu
 # 8/12/2012
 # Python implementation of Problem 84 from projecteuler.net
