@@ -7,7 +7,7 @@
 // Compiled with tcc
 
 #include <stdio.h>
-#include <string.h>
+#include <stdlib.h>
 
 char divisible(unsigned int n, unsigned int max);
 
