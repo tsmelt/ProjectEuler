@@ -12,7 +12,7 @@
 int main(int argc, char *argv[]) {
     unsigned long long maxNum = 100;
     unsigned long long sumSquares = 0;
-    unsigned long long squareSums = 0;
+    unsigned long long squareSum = 0;
     unsigned long long diff = 0;
     unsigned long long i;
     
@@ -23,13 +23,13 @@ int main(int argc, char *argv[]) {
     
     for(i=1; i<=maxNum; i++) {
         sumSquares += (i * i);
-        squareSums += i;
+        squareSum += i;
     }
-    squareSums *= squareSums;
-    diff = (squareSums - sumSquares);
+    squareSum *= squareSum;
+    diff = (squareSum - sumSquares);
     
     printf("Sum of squares: %llu\n", sumSquares);
-    printf("Square of sums: %llu\n", squareSums);
+    printf("Square of sum: %llu\n", squareSum);
     printf("Difference: %llu\n", diff);
     return 0;
 }
