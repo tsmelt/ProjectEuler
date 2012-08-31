@@ -31,5 +31,6 @@ int main(void) {
     }
     
     printf("(%u, %u, %u)\n", a, b, c);
+    printf("Product: %d\n", a*b*c);
     return 0;
 }
