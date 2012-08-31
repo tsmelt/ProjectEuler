@@ -117,7 +117,7 @@ int main(int argc, char *argv[]) {
     // Print results
     printf("M   Count\n---------\n");
     for(i=1; i<(1 + (1 + num_pieces)/2); i++) {
-        printf("%-3d %ull\n", i, M[i]);
+        printf("%-3d %llu\n", i, M[i]);
     }
     printf("\nAverage: %.8f\n", avg_float);
     
